@@ -60,7 +60,7 @@
 
     
 
-![image-20230625203433732](.\assets\image-20230625203433732.png)
+![image-20230625203433732](./assets/image-20230625203433732.png)
 
 
 
@@ -71,7 +71,7 @@
 
 ## Producers
 
-![image-20230625203433732](.\assets\image-20230625204741320.png)
+![image-20230625203433732](./assets/image-20230625204741320.png)
 
 - 데이터를 토픽에 기록하는 기능
 - 프로듀서는 데이터 키(json, 바이너리, String 등)를 정할 수 있다.
@@ -81,7 +81,7 @@
 - if key = null, then all messages for that key will always go to the same partition (hashing)
 - 카프카는 키에 맞게 자동으로 해당 파티션으로 분류한다.
 
-![image-20230625205346275](.\assets\image-20230625205346275-1687694038218-2.png)
+![image-20230625205346275](./assets/image-20230625205346275-1687694038218-2.png)
 
 
 
@@ -89,13 +89,13 @@
 
 - 메세지를 바이트로 바꾸는 것 
 
-![image-20230625205529424](.\assets\image-20230625205529424-1687694133987-4.png)
+![image-20230625205529424](./assets/image-20230625205529424-1687694133987-4.png)
 
 - 시리얼 라이져 로직
 
 - A kafka partitioner is a code logic that takes a record and determines to which partition to send it into.
 
-![image-20230625205720497](.\assets\image-20230625205720497-1687694243972-6.png)
+![image-20230625205720497](./assets/image-20230625205720497-1687694243972-6.png)
 
 
 
